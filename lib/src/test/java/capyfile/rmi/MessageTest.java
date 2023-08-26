@@ -1,4 +1,4 @@
-package capyfile.rmi;
+package capyfile.rmi.interfaces;
 
 import static org.junit.jupiter.api.Assertions.*;
 
