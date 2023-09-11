@@ -7,7 +7,5 @@ public class FileDownload implements Serializable
 
 	public String uuid;
 
-	public FileDownload (String uuid) { 
-		this.uuid = uuid;
-	}
+	public FileDownload (String uuid) { this.uuid = uuid; }
 }
