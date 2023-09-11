@@ -4,12 +4,12 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-class MessageTest
+class FileDownloadTest
 {
 	@Test void someCreationTest ()
 	{
-		Message msg = new Message ("Hello there");
+		FileDownload f = new FileDownload ("----");
 
-		assertTrue (msg.content == "Hello there", "Content should be set");
+		assertTrue (f.uuid == "----", "UUID should be set");
 	}
 }
