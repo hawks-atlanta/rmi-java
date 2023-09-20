@@ -1,4 +1,4 @@
-package capyfile.rmi.interfaces;
+package capyfile.rmi;
 
 import java.io.Serializable;
 

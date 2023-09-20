@@ -1,4 +1,4 @@
-package capyfile.rmi.interfaces;
+package capyfile.rmi;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;
