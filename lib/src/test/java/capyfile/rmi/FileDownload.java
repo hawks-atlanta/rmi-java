@@ -8,7 +8,7 @@ class FileDownloadTest
 {
 	@Test void someCreationTest ()
 	{
-		FileDownload f = new FileDownload ("----");
+		DownloadFileArgs f = new DownloadFileArgs ("----");
 
 		assertTrue (f.uuid == "----", "UUID should be set");
 	}
