@@ -7,10 +7,10 @@ import java.util.UUID;
 public class DownloadFileRes implements Serializable
 {
 	public UUID uuid;
-	public int size;
+	public long size;
 	public RemoteInputStream stream;
 
-	public DownloadFileRes (UUID uuid, int size, RemoteInputStream stream)
+	public DownloadFileRes (UUID uuid, long size, RemoteInputStream stream)
 	{
 		this.uuid = uuid;
 		this.size = size;
