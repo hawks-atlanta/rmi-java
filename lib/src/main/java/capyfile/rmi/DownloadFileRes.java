@@ -6,10 +6,9 @@ import java.io.Serializable;
 public class DownloadFileRes implements Serializable
 {
 	public String uuid;
-	public byte[] contents;
 	public RemoteInputStream stream;
 
-	public DownloadFileRes (String uuid, byte[] contents)
+	public DownloadFileRes (String uuid, RemoteInputStream stream)
 	{
 		this.uuid = uuid;
 		this.contents = contents;
