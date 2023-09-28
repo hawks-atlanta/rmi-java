@@ -1,13 +1,14 @@
 package capyfile.rmi;
 
 import java.io.Serializable;
+import java.util.UUID;
 
 public class DownloadFileArgs implements Serializable
 {
-	public String uuid;
+	public UUID uuid;
 	public int volume;
 
-	public DownloadFileArgs (String uuid, int volume)
+	public DownloadFileArgs (UUID uuid, int volume)
 	{
 		this.uuid = uuid;
 		this.volume = volume;
