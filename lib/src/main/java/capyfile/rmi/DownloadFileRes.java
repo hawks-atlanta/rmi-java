@@ -11,6 +11,6 @@ public class DownloadFileRes implements Serializable
 	public DownloadFileRes (String uuid, RemoteInputStream stream)
 	{
 		this.uuid = uuid;
-		this.contents = contents;
+		this.stream = stream;
 	}
 }
